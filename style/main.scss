@@ -9,8 +9,9 @@
 @import "base/animations";
 @import "base/utilities";
 
-// components
-@import "components/headers";
+// layouts
+@import "layout/headers";
+@import "layout/grid";
 
 // pages
 @import "pages/home";
