@@ -1,14 +1,30 @@
 .header {
-  background-color: $color-dark;
+  height: 90vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(18, 18, 18, 0.657),
+      rgba(238, 238, 238, 0.24)
+    ),
+    url(../../assets/img.jpg);
+  background-size: cover;
   color: $color-light;
-  display: flex;
-  align-items: center;
-  height: 2rem;
-  padding: 1rem;
-  &__title {
-    flex: 1;
-  }
-  &__link {
-    flex: 1;
+
+  &-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    &__title {
+      display: block;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+    &__subtitle {
+      display: block;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
   }
 }
