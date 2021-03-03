@@ -1,0 +1,14 @@
+.header {
+  background-color: #121212;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem;
+  &__title {
+    flex: 1;
+  }
+  &__link {
+    flex: 1;
+  }
+}
